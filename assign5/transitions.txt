@@ -1,0 +1,4 @@
+ 1
+ state | character | result state
+ 0 a 1
+ 0 b 1
