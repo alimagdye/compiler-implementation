@@ -1,0 +1,7 @@
+, (, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, +, -, *, /, ), $
+Exp, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, Term Expr, ~, ~, ~, ~, ~, ~
+Expr, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, + Term Expr, - Term Expr, ~, ~, 0, 0
+Term, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, Factor Termp, ~, ~, ~, ~, ~, ~
+Termp, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, * Factor Termp, / Factor Termp, 0, 0
+Factor, ( Exp ), Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, Id, ~, ~, ~, ~, ~, ~
+Id, ~, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, ~, ~, ~, ~, ~

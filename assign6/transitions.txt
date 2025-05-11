@@ -1,0 +1,12 @@
+ 1
+ State | Character | Result state
+ 0 ( 1
+ 0 ) 1
+ 0 a 1
+ 0 b 1
+ 0 c 1
+ 0 + 1
+ 0 - 1
+ 0 * 1
+ 0 / 1
+ 0 $ 1

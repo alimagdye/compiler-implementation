@@ -1,0 +1,62 @@
+ Exp Expr Term Termp Factor Id
+ Non-terminal | Terminal | Rule
+ Exp ( Term Expr
+ Exp a Term Expr
+ Exp b Term Expr
+ Exp c Term Expr
+ Exp + ~
+ Exp - ~
+ Exp * ~
+ Exp / ~
+ Exp ) ~
+ Exp $ ~
+ Expr ( 0
+ Expr a 0
+ Expr b 0
+ Expr c 0
+ Expr + + Term Expr
+ Expr - - Term Expr
+ Expr * ~
+ Expr / ~
+ Expr ) 0
+ Expr $ 0
+ Term ( Factor Termp
+ Term a Factor Termp
+ Term b Factor Termp
+ Term c Factor Termp
+ Term + ~
+ Term - ~
+ Term * ~
+ Term / ~
+ Term ) ~
+ Term $ ~
+ Termp ( 0
+ Termp a 0
+ Termp b 0
+ Termp c 0
+ Termp + 0
+ Termp - 0
+ Termp * * Factor Termp
+ Termp / / Factor Termp
+ Termp ) 0
+ Termp $ 0
+ Factor ( ( Exp ) 
+ Factor a Id
+ Factor b Id
+ Factor c Id
+ Factor + ~
+ Factor - ~
+ Factor * ~
+ Factor / ~
+ Factor ) ~
+ Factor $ ~
+ Id ( ~
+ Id a a
+ Id b b
+ Id c c
+ Id + ~
+ Id - ~
+ Id * ~
+ Id / ~
+ Id ) ~
+ Id $ ~

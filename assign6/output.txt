@@ -1,0 +1,15 @@
+OPEN_PARENTHESIS: (
+Character: a
+Divide_Symbol: /
+Character: b
+Substract_Symbol: -
+Character: c
+CLOSE_PARENTHESIS: )
+Multiply_Symbol: *
+OPEN_PARENTHESIS: (
+Character: a
+Divide_Symbol: /
+Character: b
+Substract_Symbol: -
+Character: c
+CLOSE_PARENTHESIS: )
